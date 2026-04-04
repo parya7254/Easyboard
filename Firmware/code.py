@@ -15,6 +15,7 @@ keyboard = KMKKeyboard()
 mousekeys = MouseKeys(
     max_speed=10,
     acc_interval=100,
+    move_step=0.6
 )
 
 keyboard.modules.append(MouseKeys())
